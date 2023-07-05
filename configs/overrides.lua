@@ -52,7 +52,7 @@ M.mason = {
     "ruff",
 
     -- golang
-    "gopl",
+    "gopls",
   },
 }
 
