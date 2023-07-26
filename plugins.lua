@@ -81,6 +81,16 @@ local plugins = {
     end,
   },
 
+  {
+    "danymat/neogen",
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    config = function()
+      require('neogen').setup({ snippet_engine = "luasnip" })
+    end,
+    -- Uncomment next line if you want to follow only stable versions
+    -- version = "*"
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",

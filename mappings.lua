@@ -36,6 +36,16 @@ M.trouble = {
   },
 }
 
+M.Neogen = {
+  n = {
+    ["<leader>nf"] = {
+      "<cmd>lua require('neogen').generate()<CR>",
+      "General code comments",
+      opts = { silent = true, noremap = true },
+    },
+  },
+}
+
 M.disabled = {
   n = {
     ["<C-n>"] = "",
